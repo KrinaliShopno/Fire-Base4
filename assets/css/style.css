@@ -2115,6 +2115,12 @@ div.mean-container a.meanmenu-reveal {
   align-items: center;
 }
 
+@media only screen and (min-width: 1024px) {
+ .header-main-right {
+  display: block;
+  align-items: center;
+}
+}
 .meta-items-header1 {
   background: var(--clr-bg-5);
   border-top-left-radius: 56px;
@@ -5649,9 +5655,9 @@ div.mean-container a.meanmenu-reveal {
   color: var(--clr-common-white);
 }
 .contact-form-wrapper-1 .border-btn:hover, .contact-form-wrapper-1 .border-btn:focus {
-  border-color: var(--clr-theme-2);
-  background: var(--clr-theme-2);
-  color: var(--clr-theme-1);
+  border-color: var(--clr-bg-2);
+  background: var(--clr-bg-2);
+  color: var(--clr-bg-4);
 }
 
 .contact-form-area-shape-1 {
